@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!------ SEO and website details stuff ------>
+  <meta name="description"
+    content="Engineer is the Annual Technical Symposium of NITK Surathkal and is one of the largest of its kind in India">
+  <meta name="keywords"
+    content="Engineer, Techfest, Technology, NITK Surathkal, Coding, Prizes, Workshops, Events, DJNight, Engi22, Engi NITK, Engineer NITK">
+  <meta property="og:title" content="Engineer - is the Annual Technical Symposium of NITK Surathkal" />
+  <meta property="og:description"
+    content="Engineer is the Annual Technical Symposium of NITK Surathkal and is one of the largest of its kind in India" />
+  <meta property="og:image"
+    content="https://raw.githubusercontent.com/ENGINEER-NITK/ENGINEER-NITK.github.io/main/images/NEWLOGO.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://engineer.nitk.ac.in/" />
+  <link rel="stylesheet" type="text/css" href="buttons.css" media=”screen” />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="ienitk">
+  <meta name="twitter:site" content="https://engineer.nitk.ac.in/">
+  <meta name="twitter:title" content="Engineer - is the Annual Technical Symposium of NITK Surathkal">
+  <meta name="twitter:description"
+    content="Engineer is the Annual Technical Symposium of NITK Surathkal and is one of the largest of its kind in India">
+  <meta name="twitter:image:src" content="./images/NEWLOGO.png">
+
+  <!-- google site varification key -->
+  <meta name="google-site-verification" content="Ztef-PgwdDMROlBNI_rgz1T1meZP6GvWzifM3z3HwAo" />
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+  <!-- slick carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css'>
+
+  <title>IETE CHENNAI</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href=".\images upcom\WhatsApp Image 2023-08-27 at 12.13.41.jpg" type="image/x-icon" />
+
+  <!-- local style sheets -->
+  <link rel="stylesheet" href="./dist/css/style.css" />
+  <link rel="stylesheet" href="./css//responsive.css" />
+  <link rel="stylesheet" href="./css//navbar.css" />
+  <link rel="stylesheet" href="./css/gallery_page.css" />
+
+  <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Techfest",
+            "name": "Engineer",
+            "email": "nitkengineer2022@gmail.com",
+            "image": "https://raw.githubusercontent.com/ENGINEER-NITK/ENGINEER-NITK.github.io/main/images/NEWLOGO.png",
+            "url": "https://engineer.nitk.ac.in",
+            "sameAs": ["https://www.facebook.com/EngineerNITK", "https://www.linkedin.com/company/engineer-nitk", "https://www.instagram.com/engineernitk"],
+            "description": "Engineer is the Annual Technical Symposium of NITK Surathkal and is one of the largest of its kind in India",
+            "startDate": "01/03/2022 09:00AM",
+            "endDate": "04/03/2020 11:59PM",
+            "location": {
+                "@type": "Place",
+                "name": "NITK Surathkal",
+                "sameAs": "http://www.nitk.ac.in/",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "NITK Surathkal",
+                    "addressLocality": "Surathkal",
+                    "postalCode": "575025",
+                    "addressCountry": "IND"
+                }
+            }
+        }
+    </script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RLS4THWWW2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-RLS4THWWW2');
+    gtag('config', 'UA-220930637-1');
+  </script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js'></script>
+
+
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="main-nav">
+        <img src="http://www.ietechennai.in/assets/img/logo.png" alt="" style="width: 5%; padding: 10px;">
+        <a href="/" class="logo hero-glitch" data-text="IETE">IETE</a>
+        <button id="nav-button" class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <svg class="nav-ham" viewBox="0 0 100 100" width="50" onclick="this.classList.toggle('active')">
+            <path class="nav-ham-line top"
+              d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+            <path class="nav-ham-line middle" d="m 30,50 h 40" />
+            <path class="nav-ham-line bottom"
+              d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+          </svg>
+        </button>
+        <ul class="nav-list" id="nav-menu">
+          <li>
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li>
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li>
+            <a href="https://engineer.nitk.ac.in/events" class="nav-link">Events</a>
+          </li>
+          <li>
+            <a href="team.html" class="nav-link">Executive Committee</a>
+          </li>
+          <li>
+            <a href="https://engineer.nitk.ac.in/workshops" class="nav-link">Membership</a>
+          </li>
+          <li>
+            <a href="https://engineer.nitk.ac.in/workshops" class="nav-link">Chencon</a>
+          </li> 
+          <li>
+            <a href="https://engineer.nitk.ac.in/gallery" class="nav-link">Chenlink Newsletter</a>
+          </li>
+          <li>
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <!-- <div class="engi_care">
+    <div class=""></div>
+  </div> -->
+
+
+  <div class="modal fade" id="shop" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="exampleModalLabel">Our Recent Events</h3>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h4 class="center">PROFESSIONAL RESUME WRITING</h4>
+          <img src=".\images upcom\Slide2.jpeg" alt="" style="width: 100%; padding: 10px;">
+          <p>
+            <i></i> 17th October 2020 (Saturday)<br/>
+
+            Mr.MallikMahalingam (CEO,Springpath (CISCO)) commenced with the evolution of hardware and operating software
+          </p>
+
+          <h4 class="center">EVOLUTION OF COMPUTING AND SKILL SETS FOR THE FUTURE</h4>
+          <img src=".\images upcom\Slide3.jpeg" alt="" style="width: 100%; padding: 10px;">
+          <p>
+            <i></i> 17/10/2020<br/>
+
+            Mr.M.Vigneshwaran (Softskill Trainer/ e-learning developer) gave a guidance session on RESUME building in a Professional manner
+          </p>
+
+          <h4 class="center">EASE THE ERROR 1.0</h4>
+          <img src=".\images upcom\Slide4.jpeg" alt="" style="width: 100%; padding: 10px;">
+          <p>
+            <i></i>October 10 & 11 2020<br/>
+
+            24 Hour national level hackathon which challenged students to think out-of-the-box and offer innovative ideas
+          </p>
+
+          <h4 class="center">5G AND IT’S HISTORYs</h4>
+          <img src=".\images upcom\Slide12.jpeg" alt="" style="width: 100%; padding: 10px;">
+          <p>
+            <i></i>20/09/2020<br/>
+
+            Mr.SunderPalaniraj (Director IC-design, TDKInvenSense) gave a technical talk on communication networks
+          </p>
+          
+
+
+        </div>
+        <div class="modal-footer">
+          <a href="https://forms.gle/oTmTe6W3gXgVrdPLA" target="_blank">
+            <button type="button" class="btn btn-dark" disabled>
+              See More
+            </button>
+          </a>
+          <!-- <form>
+                      <script src="https://checkout.razorpay.com/v1/payment-button.js"
+                          data-payment_button_id="pl_Iwdp9qAGblSpAw" async> </script>
+                  </form> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="hero" id="hero">
+    <video type="video/mp4" src="./images upcom/pexels-yan-krukov-8199331 (1080p).mp4" autoplay muted loop id="hero_video"></video>
+
+    <div class="main-start">
+      <div class="container">
+        <div class="home-top-space-custom" style="margin-bottom: 50px;"></div>
+        <div style="
+              -moz-user-select: none;
+              -webkit-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+              -o-user-select: none;
+
+             
+            " unselectable="on" onselectstart="return false;">
+
+
+          <p class='landing-para home-page-text heading' >LEARNING TODAY, LEADING TOMORROW</p>
+
+          <h1 class=" home-page-text  home-page-text heading-2 style=" letter-spacing: 1px;" data-text="COMING SOON">IETE</h1>
+          <p class='landing-para'>The Institution of Electronics and Telecommunication Engineers, Chennai</p>
+          <div class="my-3">
+            <button onclick="popup('nitk-entry-pass-422411');" style="color:white;margin: 20px;margin-left: 0px;background-color: rgb(63, 62, 62); border: none;" id="nav-cta">Event Timeline</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="https://www.townscript.com/static/Bookingflow/js/townscript-widget.nocache.js" type="text/javascript"></script>
+
+            <a href="#" id="nav-cta" data-bs-toggle="modal" data-bs-target="#shop">
+               Upcoming Events and Updates
+            </a>
+          </div>
+
+          
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tag_line_page">
+    <div class="pg2-navigator">
+      <a href="#hero"><img src="images/navigator.png" alt="" /></a>
+    </div>
+    <div class="pg2-content" data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-out">
+      <div class="pg2-think">
+        
+        <div class="pg2-c-h">
+          <h2 class='landing-para home-page-text heading'>INNOVATION FOR THE PEOPLE AND BY THE PEOPLE IS THE REACTION OF OUR NEW INDIA</h2>
+          <p class='landing-para'>- NARENDRA MODI, HON’BLE PRIME MINISTER OF INDIA.<br/></p>
+          <div class="pg2-think-content">
+            Chennai Centre of IETE is committed to attain commanding heights and achieve the status of “Centre of Excellence” in Technical, Engineering & Management education by harnessing the best practices in educational innovation and through its concerted endeavors like quality teaching, industrial consultancy and training to the aspirants including corporate training.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- timeline -->
+  <section class="timeline-section">
+    
+  </section>
+
+
+  <section class="gallery-section" id="gallery-section">
+    <div class="container">
+      <div class="gallery-section-inner">
+        <h2 class="text-white glimps-engi">Glimpse of Our Recent Events</h2>
+        <div class="gallery-section-slider">
+         
+          <div class="item card" data-aos="fade-up" data-aos-delay="0">
+            <img class="gallery-img" src=".\images upcom\Slide2.jpeg" alt="" />
+          </div>
+          <div class="item card" data-aos="fade-up" data-aos-delay="250">
+            <img class="gallery-img" src=".\images upcom\Slide3.jpeg" alt="" />
+          </div>
+          <div class="item card" data-aos="fade-up" data-aos-delay="500">
+            <img class="gallery-img" src=".\images upcom\Slide4.jpeg" alt="" />
+          </div>
+          <div class="item card">
+            <img class="gallery-img" src=".\images upcom\Slide12.jpeg" alt="" />
+          </div>
+        </div>
+        <button style="color:white;margin: 85px;margin-left: -20px;background-color: rgb(63, 62, 62); onclick="popup('"#" id="nav-cta" data-bs-toggle="modal" data-bs-target="#shop" >PROFESSIONAL RESUME WRITING</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="https://www.townscript.com/static/Bookingflow/js/townscript-widget.nocache.js" type="text/javascript"></script>
+        <button style="color:white;margin: 80px;margin-left: -20px;background-color: rgb(63, 62, 62); onclick="popup('"#" id="nav-cta" data-bs-toggle="modal" data-bs-target="#shop">EVOLUTION OF COMPUTING</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="https://www.townscript.com/static/Bookingflow/js/townscript-widget.nocache.js" type="text/javascript"></script>
+        <button style="color:white;margin: 80px;margin-left: -20px;background-color: rgb(63, 62, 62); onclick="popup('"#" id="nav-cta" data-bs-toggle="modal" data-bs-target="#shop">EASE THE ERROR 1.0</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="https://www.townscript.com/static/Bookingflow/js/townscript-widget.nocache.js" type="text/javascript"></script>
+        <button style="color:white;margin: 80px;margin-left: -20px;background-color: rgb(63, 62, 62); onclick="popup('"#" id="nav-cta" data-bs-toggle="modal" data-bs-target="#shop">5G AND IT’S HISTORYs</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="https://www.townscript.com/static/Bookingflow/js/townscript-widget.nocache.js" type="text/javascript"></script>
+        
+      </div>
+    </div>
+  </section>
+
+  <div class="home-top-space-custom"></div>
+  <!-- Footer -->
+  <footer class="text-center text-lg-start text-white contact_use" id="contact_us"
+    style="background-color: rgb(20, 20, 20)">
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold engineer-logo">IETE Chennai</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #c004d9; height: 2px" />
+            <p>
+              IETE Chennai centre, No: 37, Tamil Nadu 600086
+Conran Smith Road Entrance Peters Road,
+Gopalapuram,Chennai,
+            </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold">Discover</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #c004d9; height: 2px" />
+            <p>
+              <a href="https://engineer.nitk.ac.in/team" class="text-white link_hover">Our Team</a>
+            </p>
+            <p>
+              <a href="https://drive.google.com/file/d/10MaZBwFFAArGSpD-jwBOA9Dp_k7bvXyD/view?usp=drivesdk"
+                target="_blank" class="text-white link_hover" download="Brochure">Brochure</a>
+            </p>
+            <p>
+              <a href="/#timeline" class="text-white link_hover">Schedule</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white link_hover">Home</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white link_hover">About</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white link_hover">Suggestions & Feedback</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Courses Available</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width:90px; background-color: #c004d9; height: 2px" />
+            <p>
+              <a href="https://engineer.nitk.ac.in/about" class="text-white link_hover">Have a look</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #c004d9; height: 2px" />
+            <p>
+              <i class="fas fa-home mr-3"></i> The Institution of Electronics and Telecommunication Engineers, Chennai
+            </p>
+            <p>
+              <i class="fas fa-envelope mr-3"></i>
+              <a href="mailto:nitkengineer2022@gmail.com" class="link_hover">  ietechennai@gmail.com</a>
+            </p>
+            <p>
+              <i class="fas fa-phone mr-3"></i><a href="tel:+91 8839404484" class="link_hover">  044 2835 0773</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <section class="d-flex justify-content-center p-4 center mt-3" style="background-color: rgb(20, 20, 20)">
+      <div class="social-icon">
+  
+        </a>
+        <!-- <a
+            href="mailto:nitkengineer2022@gmail.com"
+            class="text-white me-4"
+            target="_blank"
+          >
+            <i class="fab fa-google"></i>
+          </a> -->
+        <a href="https://www.instagram.com/engineernitk/" class="text-white me-4" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/engineer-nitk/mycompany/" class="text-white me-4" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        </a>
+        <a href="https://www.youtube.com/channel/UCuI2mPU8NqIKvdW9F4wJTVg" class="text-white me-4" target="_blank">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- Copyright -->
+    <div class="text-center p-3 my-3" style="background-color: rgba(20, 20, 20, 1)">
+      © 2022 Copyright IETE | Design by Team_Devs
+      <a class="text-white link_hover" href="www.abrahamsamuel.me">Our Web Team</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Local Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
